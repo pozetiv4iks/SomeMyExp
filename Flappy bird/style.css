@@ -1,0 +1,31 @@
+body{
+    font-family: fantasy;
+    text-align: center;
+    background-color:rgb(18, 143, 201);
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#board{
+    background-image: url("flappybirdbg.png");
+}
+
+.head{
+    background-color: black;
+    color: white;
+}
+
+footer{
+
+    color: white;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+a,span{
+    color: purple;
+}
