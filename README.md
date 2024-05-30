@@ -2,4 +2,4 @@
 ## Project:
 1.Kill zombie game<br>
 2.Flappy Bird <br>
-3.API_Gallary
+3.API_Gallery
