@@ -1,3 +1,3 @@
 # This rep about my small project
 ## Project:
-Kill zombie game
+1.Kill zombie game
