@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: gray;
+    border-radius: 25px;
+}
+
+
+
+.smallbody{
+    background-image: url('cover1.png');
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 100% 100%;
+    border-radius: 0;
+    background-color: -webkit-linear-gradient(45deg, rgb(40, 40, 40), rgb(133, 133, 133));
+}
+
+.player{
+    filter: blur(0px);
+    height: 390px;
+    width: 320px;
+    max-width: 100%;
+    margin: 125px;
+    border: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.coverImg{
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 320px;
+    height: 300px;
+    border-radius: 25px;
+    justify-content: center;
+    display: flex;
+    border: 0;
+}
+
+.song{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    display: flex ;
+}
+
+.progress_bar{
+    background-color: rgb(190, 190, 190);
+    border-radius: 5px;
+    width: 100%;
+    height: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    .progress{
+        background-color: rgb(15, 12, 12);
+        border-radius: 5px;
+        height: 6px;
+    }
+}
+
+.buttons{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .button{
+        cursor: pointer;
+    }
+}
+
+img{
+    width: 50px;
+}
+
+.box{
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.course_logo, a, span, footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background: black;
+    text-decoration: none;
+    border-radius: 0;
+}
+
+.timeDuration{
+    color:green
+}
